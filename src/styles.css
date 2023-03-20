@@ -1,0 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Dancing+Script&family=Poppins&family=Titillium+Web:wght@200&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}

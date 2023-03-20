@@ -1,0 +1,41 @@
+#contact {
+  position: absolute;
+  padding-top: 50px;
+  top: 1400px;
+}
+
+.contactform {
+  position: absolute;
+  top: 200px;
+  left: 575px;
+  padding-bottom: 20px;
+
+  /* background-color: paleturquoise; */
+  width: 500px;
+  height: 300px;
+  align-items: center;
+}
+
+/* .contactHea {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 520px;
+  left: 600px;
+  color: rgb(248, 170, 26);
+} */
+
+.contactTop {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  left: 450px;
+  color: rgb(248, 170, 26);
+}
+
+input,
+textarea,
+button {
+  margin: 10px;
+}

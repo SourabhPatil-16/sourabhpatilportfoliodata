@@ -1,0 +1,73 @@
+.nav:hover {
+  animation: blink 1s ease-in-out;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  width: 100%;
+}
+
+.logo {
+  float: left;
+  width: 119px;
+  font-weight: bold;
+  font-size: 30px;
+  align-items: center;
+  /* text-decoration: none; */
+}
+
+.logo {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 40px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.animate:hover {
+  animation: blink 1s ease-in-out;
+}
+@keyframes blink {
+  0% {
+    box-shadow: 0 0 10px rgba(195, 252, 38, 0.671), 0 0 30px rgb(125, 216, 252);
+  }
+}
+
+.contact {
+  float: right;
+  width: 84px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgb(146, 247, 107);
+  border: 2px solid greenyellow;
+  border-radius: 15px;
+  margin-top: 7.5px;
+}
+
+a.animate {
+  text-decoration-line: none;
+}
